@@ -2,7 +2,11 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div>Hello Navbar</div>
+    <nav class="bg-gray-800">
+      <div class="container mx-auto flex items-center justify-between p-4">
+        <div class="text-white">CapsulesX</div>
+      </div>
+    </nav>
   );
 };
 
