@@ -7,11 +7,13 @@ const Input = (props) => {
     <label htmlFor={props.label}  className="block text-md font-medium text-white pb-1">
    {props.label}
 </label>
-    <input
-       type="search"
-      name={props.label}
+    <input  
+      onChange={props.onChange}
+      type="search"
+      name={props.name}
       id={props.label}
-      className="block w-full rounded-sm border-gray-300 pl-7 pr-12 focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+      value={props.value}
+      className="block w-full rounded-sm border-gray-300 pl-7 pr-12 focus:border-indigo-500 focus:ring-indigo-500 text-lg h-12 py-4"
       placeholder={props.label}
     />
   </div>
