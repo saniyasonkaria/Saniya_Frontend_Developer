@@ -2,9 +2,9 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav class="bg-gray-800">
-      <div class="container mx-auto flex items-center justify-between p-4">
-        <div class="text-white">CapsulesX</div>
+    <nav className="bg-gray-800">
+      <div className="container mx-auto flex items-center justify-between p-4">
+        <div className="text-white text-2xl">CapsulesX</div>
       </div>
     </nav>
   );
